@@ -1,0 +1,81 @@
+#login-flex-container{
+    padding-left: 35%;
+    padding-right: 35%;
+    padding-top: 100px;
+    padding-bottom: 10%;
+    font-family: "Kumbh Sans", sans-serif;
+    background-color: rgb(255, 255, 255);
+    /* scroll-behavior: smooth; */
+    display: flex;
+    
+}
+#loginContent{
+    width: 100%;
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 20px;
+    padding: 25px;
+    padding-block-end: 5px;
+    background-color: white;
+    background-image:linear-gradient(to right, #2bc0e4, #eaecc6);
+    /* background: linear-gradient(to right, #f09819, #edde5d); */
+    box-shadow: 5px 5px 5px 5px grey;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#loginContent input{
+    width: 95%;
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+#loginContent label{
+    font-weight: bold;
+    color: white;
+}
+#loginName{
+    font-family: "Kumbh Sans", sans-serif;
+    height: 100%;
+    width: 150px;
+    background-image:linear-gradient(to right, #ff512f, #f09819);
+    text-align: center;
+    color: white;
+    box-shadow: 5px 5px 5px 5px grey;
+}
+#login-logo{
+    font-size: 1300%;
+}
+
+#loginContent input:hover{
+    width: 95%;
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 22px;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px 5px grey;
+    transition: 0.4s;
+}
+#loginButton{
+    text-align: center;
+    /* padding-left: 10%; */
+}
+#button{
+    height: 60px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    background: linear-gradient(to right, #ed4264, #ffedbc);
+}
+#button:hover{
+    height: 80px;
+    width: 220px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px grey;
+    background: linear-gradient(to right, #ed4264, #ffedbc);
+    transition: 0.5s;
+}

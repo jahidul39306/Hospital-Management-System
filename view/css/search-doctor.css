@@ -1,0 +1,91 @@
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 25px;
+    font-size: 20px;
+    background-color: white;
+}  
+th{
+  height: 70px;
+  width: 160px;
+  font-size: 25px;
+  background: linear-gradient(to right, #e55d87, #5fc3e4);
+  color: white;
+}
+table{
+    overflow:hidden;
+    border-radius: 20px;
+    width: 800px;
+    box-shadow: 5px 5px 5px 5px grey;
+    margin-left: auto;
+    margin-right: auto;
+}
+td{
+    font-weight:bold;
+    padding: 10px;
+    color: #485bb1;
+}
+td:hover{
+    box-shadow: 10px 10px 10px 10px grey;
+    background-color: #485bb1;
+    color: white;
+}
+#search-doctor-flex{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 15px;
+    padding: 25px;
+    /* padding-top: 25px;
+    padding-bottom: 25px; */
+    font-family: "Kumbh Sans", sans-serif;
+    background-color: rgb(255, 181, 181);
+    box-shadow: 5px 5px 5px 5px grey;
+    display: flex;    
+}
+input{
+    width: 400px;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
+input:hover{
+    width: 400px;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px grey;
+    transition: 0.4s;
+}
+.search-buttons{
+    /* text-align: center; */
+    padding-left: 83%;
+}
+button{
+    font-size: 15px;
+    font-weight: bold;
+    background: #93F9B9;
+    border-radius: 5px;
+    height: 50px;
+    width: 120px;
+}
+button:hover{
+    font-size: 15px;
+    font-weight: bold;
+    background: linear-gradient(to right, #ffe259, #ffa751);
+    box-shadow: 5px 5px 5px 5px grey;
+    transition: 0.5s;
+}
+#search-doctor-logo{
+    text-align: center;
+}
+#showAll{
+    width: fit-content;
+}
+
+

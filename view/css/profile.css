@@ -1,0 +1,114 @@
+#profile-flex-container{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-family: "Kumbh Sans", sans-serif;
+    background-color: whitesmoke;
+    /* scroll-behavior: smooth; */
+    display: flex;
+    
+}
+
+#profile-flex-container textarea{
+    width: 100%;
+    height: 70px;
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 20px;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+
+#profile-flex-container input{
+    width: 100%;
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 3px;
+    padding-left: 5px;
+    
+}
+
+
+#profile-flex-container input:hover{
+    width: 100%;
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 25px;
+    transition: 0.5s;
+    box-shadow: 5px 5px 5px 5px grey;
+}
+#profile-basicInfo{
+    width: 40%;
+    padding: 1%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px grey;
+    background-color: rgb(250, 202, 202);
+}
+
+#profile-contactInfo{
+    width: 30%;
+    padding: 1%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px grey;
+    background-color: aliceblue;
+
+}
+#profile-accountInfo{
+    width: 30%;
+    padding: 1%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px grey;
+    background-color: rgb(212, 248, 248);
+}
+fieldset{
+    border: none; 
+}
+legend{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#profile-accountInfo img{
+     
+    padding: 60px;
+   
+}
+img{
+   
+    /* padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 10%;
+    padding-bottom: 30%; */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+
+img:hover{
+   
+    /* padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 10%;
+    padding-bottom: 30%; */
+    background-color: black;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    transition: 0.5s;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+
+#profile-accountInfo a{
+    padding: 25px;
+    font-size: 30px;
+    text-decoration: none;
+    color: blue;
+}
+#profile-name{
+    text-align: center;
+}
+.profile-gap{
+    width: 40px;
+}
+label{
+    font-weight: bold;
+}

@@ -1,0 +1,155 @@
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    
+    font-size: 20px;
+    background-color: white;
+}  
+th{
+  height: 70px;
+  width: 160px;
+  font-size: 25px;
+  background: linear-gradient(to right, #e55d87, #5fc3e4);
+  color: white;
+}
+table{
+    overflow:hidden;
+    border-radius: 20px;
+    width: 800px;
+    box-shadow: 5px 5px 5px 5px grey;
+    margin-left: auto;
+    margin-right: auto;
+}
+td{
+    font-weight:bold;
+    padding: 10px;
+    color: #485bb1;
+}
+td:hover{
+    box-shadow: 10px 10px 10px 10px grey;
+    background-color: #485bb1;
+    color: white;
+}
+
+#time-flex-container{
+    /* margin-left: auto;
+    margin-right: auto; 
+    width: 30%; */
+    padding-left: 42%;
+    padding-right: 42%; 
+    /* padding: 25px; */
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-family: "Kumbh Sans", sans-serif;
+    background-color: whitesmoke;
+    display: flex;    
+}
+#time-fixer{
+    width: 250%;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px 5px grey;
+    background: linear-gradient(to right, #00c9ff, #92fe9d);
+    
+}
+
+.error {
+    padding: 6px 0 4px;
+    color: red;
+    display: block
+}
+
+#timeScheduleTable{
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    
+}
+.deleteButton{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    border-color: red;
+    background-color: white;
+    color: red;
+    border-radius: 10px;
+}
+.deleteButton:hover{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px grey;
+    transition: 0.5s;
+}
+
+input{
+    width: 95%;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+}
+input:hover{
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px grey;
+    transition: 0.4s;
+}
+select{
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+select:hover{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px grey;
+    transition: 0.4s;
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
+.time-button{
+   text-align: center;
+}
+#time-add{
+    font-size: 20px;
+    font-weight: bold;
+    background: #93F9B9;
+    border-radius: 5px;
+    height: 50px;
+    width: 120px;
+}
+
+#time-add:hover{
+    font-size: 23px;
+    font-weight: bold;
+    background: linear-gradient(to right, #ffe259, #ffa751);
+    border-radius: 5px;
+    height: 70px;
+    width: 140px;
+    transition: 0.5s;
+}
+
+.showMsg{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+#msg{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+}
+#time-logo{
+    text-align: center;
+    font-weight: bold;
+}

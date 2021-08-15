@@ -1,0 +1,61 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+#flex-container-header{
+    display: flex;
+    height: 120px;
+    /* padding-top: 2%; */
+    /* padding: 2%; */
+    background-image: radial-gradient(circle, #dc1f71, #c82d92, #a842ae, #7954c2, #2961cb);
+}
+
+#hospital-icon{
+    padding-left: 150px;
+    padding-top: 25px;
+    font-size: 85px;
+}
+
+#Hospital-name{
+    padding-top: 12px;
+    padding-left: 15px;
+    padding-right: 5px;
+    font-size: 30px;
+}
+
+#profile{
+    padding-top: 45px;
+    padding-left: 45%;
+    font-size: 25px;
+}
+
+#logout{
+    padding-top: 45px;
+    padding-left: 55px;
+    font-size: 25px;
+}
+
+#logout a{
+    text-decoration: none;
+    color: #000;
+}
+
+#logout a:hover{
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+#profile a{
+    text-decoration: none;
+    color: #000;
+}
+
+#profile a:hover{
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
