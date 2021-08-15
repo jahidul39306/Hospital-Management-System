@@ -5,29 +5,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel = "stylesheet" href = "css/hospitalizedPatient.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hospitalized patient</title>
-    <style>
-        table {
-        border-collapse: collapse;
-}
-th {
-  height: 70px;
-}
+    <script src="js/hospitalizedPatient.js"></script>
 
-</style>
 </head>
 <body>
-    <h1>Hospitalized patient</h1>
-    <table border="1">
-    <th>Patient ID</th>
-    <th>Patient name</th>
-    <th>Patient disease</th>
-    <th>Admitted date</th>
-    <th>Condition</th>
-    </table>
+    <p>Hospitalized Patient</p>
+    <br>
+    <div id = "hospitalPatientTable">
+        <script>showHospitalizedPatient();</script>
+    </div>
+    <br><br><br><br><br><br>
+
 </body>
 </html>
 <?php

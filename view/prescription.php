@@ -37,16 +37,16 @@ th {
                 <legend>Doctor Information: </legend>
                 <br>
                 <label for = "doctorName">Doctor Name: </label>
-                <input type = "text" id = "doctorName" name = "doctorName" readonly value = <?php echo $_COOKIE["doctorName"]?>>
+                <input type = "text" id = "doctorName" name = "doctorName" readonly value = "<?php echo $doctorname;?>">
                 <br><br>
                 <label for = "specialist">Specialist In: </label>
-                <input type = "text" id = "specialist" name = "specialist" readonly value = <?php echo $_COOKIE["doctor_speciality"]?>>
+                <input type = "text" id = "specialist" name = "specialist" readonly value = "<?php echo $doctorspec;?>">
                 <br><br>
                 <label for = "doctorEmail">Email: </label>
-                <input type = "text" id = "doctorEmail" name = "doctorEmail" readonly value = <?php echo $_COOKIE["doctor_email"] ?? ''?>>
+                <input type = "text" id = "doctorEmail" name = "doctorEmail" readonly value = "<?php echo $doctorEmail ?? ''?>">
                 <br><br>
                 <label for = "doctorPhone">Phone: </label>
-                <input type = "text" id = "doctorPhone" name = "doctorPhone" readonly value = <?php echo $_COOKIE["doctor_phone"] ?? ''?>>
+                <input type = "text" id = "doctorPhone" name = "doctorPhone" readonly value = "<?php echo $doctorPhone ?? ''?>">
                 </fieldset>
             </div>
        

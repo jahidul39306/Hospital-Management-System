@@ -24,15 +24,20 @@
         </div>
         <div id = "loginContent">
             <label for = "username">Username: </label>
-            <input type = "text" id = "username" name = "username" value = "<?php echo $_POST["username"] ?? '';?>">
+            <input type = "text" id = "username" name = "username" value = "<?php echo $_COOKIE["username"] ?? '';?>">
             &nbsp;
             <span id = "usernameErr" style = "color:red"> *<?php echo $usernameErr; ?></span>
             <br><br>
             <label for = "password">Password: </label>
-            <input type = "password" id = "password" name = "password">
+            <input type = "password" id = "password" name = "password" value = "<?php echo $_COOKIE["password"] ?? '';?>">
             &nbsp;
             <span id = "passwordErr" style = "color:red"> *<?php echo $passwordErr; ?></span>
-            <br><br>
+            <br>
+            <div id = "remember-me">
+                <input type="checkbox" id="remember-me-checkbox" name="remember-me-checkbox" value="rememberMe">
+                <label for = "remember-me-checkbox">Remember me</label>
+            </div>
+            <br>
             <div id = "loginButton"><button id = "button" type="submit" name = "loginButton">Log In</button></div>
             <p style = "color:green"><?php echo $loginSuccessful; ?></p>
             <p style = "color:red"><?php echo $loginErr; ?></p>

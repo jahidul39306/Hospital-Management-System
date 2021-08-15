@@ -36,9 +36,12 @@
                 setcookie("doctor_speciality", $doctor[0]["doctor_speciality"]);
                 setcookie("doctor_email", $doctor[0]["doctor_email"]);
                 setcookie("doctor_phone", $doctor[0]["doctor_phone"]);
-                // $_SESSION["doctor_username"] = $doctor[0]["doctor_username"];
-                // $_SESSION["doctor_password"] = $doctor[0]["doctor_password"];
-
+                
+                if(isset($_POST['remember-me-checkbox']))
+                {
+                    setcookie("username", $_POST["username"], time() + (86400 * 30));
+                    setcookie("password", $_POST["password"], time() + (86400 * 30));
+                }
                 $hasErr = false;
                 $loginSuccessful = "Successfully logged in";
                 header("Location: home.php");

@@ -144,4 +144,14 @@
         return $res->fetch_all(MYSQLI_ASSOC);
     }
 
+    function showHospitalizedPatient($doctorId)
+    {
+        $conn = connect();
+        $sql = $conn->prepare("SELECT * FROM admin_cabinInformation WHERE cabin_doctorId = ?");
+        $sql->bind_param("i", $doctorId);
+        $sql->execute();
+        $res = $sql->get_result();
+        return $res->fetch_all(MYSQLI_ASSOC);
+    }
+
 ?>
